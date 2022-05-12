@@ -1,0 +1,34 @@
+header, footer{
+	background-color: yellow; /*2*/
+}
+header, footer{
+	text-align: center; /*3*/
+}
+
+nav a{
+	text-decoration: none; /*4 no underline*/
+	display: inline-block;
+	border: 1px solid black; /*4 border*/
+	border-radius: 30px; /* 4 border*/
+	padding: 2% 5%;
+	margin-bottom: 1%;
+	margin-left: 2%;
+	margin-right: 2%;
+	background-color: white;
+}
+
+#para3{
+	color: blue; /*6*/
+}
+
+#left, #center{ /*position the sections*/
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+
+}
+
+#para2{
+	display: none;
+}
+
