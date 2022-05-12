@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background:url(coin.img/ethereum-logo-portrait-black-gray.png);
+       background-size:cover;
+    background-position: center;
+}
+nav.logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size:24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(201, 238, 16);
+}
+section{
+    width: 100%;
+    height: 100vh;
+    
+ 
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000000
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    padding: 12px 50px;
+    height: 80px;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+     box-shadow:2px 2px 8px rgba(0,0,0,0.70); 
+    /* overflow: hidden; */
+}
+.logo {
+    flex: 1;
+}
+
+header .logo img {
+  max-width: 80px;
+}
+.menu {
+    flex: 3;
+    display:flex;
+}
+.menu > li{
+    padding: 0 12px;
+    position: relative;
+
+}
+.logo {
+    flex: 1;
+}
+.menu {
+    flex: 3;
+    display:flex;
+}
+.menu > li{
+    padding: 0 12px;
+    position: relative;
+
+}
+.menu  li  a{
+    font-size: 18px;
+    font-weight: bold!important;
+    display: block; 
+    line-height: 20px;
+   
+	text-transform: capitalize;
+	/* color: #dcf311; */
+	text-decoration: none;
+	font-weight: 300;
+	color:  #ba12d8;
+	display: block;
+	transition: all 0.3s ease;
+}
+.menu  li a:hover{
+	color: #b0bf0b;
+	padding-left: 8px;
+}
+
+.other{
+    flex: 1;
+    display:flex;
+    
+
+
+}
+
+.accoutandbtn fa fa-user,fa fa-shopping-bag{
+    color:#ba12d8;
+}
+
+.accoutandbtn{
+    display: flex;
+   align-items: center;
+   color: #8162CE;
+}
+.accoutandbtn li {
+    padding: 10px;
+    border-radius: 50px;
+    transition: all 0.3s;
+    margin-left: 10px;
+    
+}
+.accoutandbtn li a {
+color: #8162CE;
+}
+
+.accoutandbtn li:hover {
+    background-color: rgb(255, 0, 179);
+    
+}
+.search-box{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    z-index: 1000;
+  }
+  .input-search{
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+   
+    padding-right: 40px;
+    color:rgb(20, 4, 4);
+  }
+  .input-search::placeholder{
+    color:rgba(33, 6, 6, 0.5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  .btn-search{
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color:#ba12d8 ;
+    background-color:transparent;
+    pointer-events: painted;  
+  }
+  .btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(21, 3, 3, 0.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  .input-search:focus{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(11, 3, 3, 0.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+
+
+
+
+
+
+
+
+
+.footer{
+	  background-color: #000000;
+    padding: 70px 60px;
+    width: auto;
+   justify-content: space-between;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+  
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #dcf311;
+	text-decoration: none;
+	font-weight: 300;
+	color:  #ba12d8;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #dcf311;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ba12d8;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #dcf311;
+}
+@font-face {
+    font-family: 'Shopper';
+    src: url('http://www.shopperfont.com/font/Shopper-Std.ttf');
+}
+
+.shopper {
+  text-transform: lowercase;
+  font: 2em 'Shopper', sans-serif;
+  line-height: 0.5em;
+  display: inline-block;
+}
+
+
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.5em;
+  color: #8a8a8a;
+}
+
+input {
+  border: 0.3em solid #bbc3c6;
+  padding: 0.5em 0.3em; 
+  font-size: 1.4em;
+  color: #8a8a8a;
+  text-align: center;
+}
+
+img {
+  max-width: 9em;
+  width: 100%;
+  overflow: hidden; 
+  margin-right: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.cart-container {
+  /* max-width: 75em; */
+  margin: 40px auto;  
+  overflow: hidden;
+  position: relative; 
+  border-radius: 0.6em;
+  background: #ecf0f1;
+  box-shadow: 0 0.5em 0 rgba(138, 148, 152, 0.2);
+  position: relative;
+  margin: 0 100px;
+}
+
+.heading {
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+  color: #f7f7f7;
+  background: #f34d35;
+} 
+
+.cart {
+  margin: 2.5em;
+  overflow: hidden;
+}
+
+.cart.is-closed {
+  height: 0;
+  margin-top: -2.5em;
+}
+
+.table {
+  background: #ffffff;
+  border-radius: 0.6em;
+  overflow: hidden;
+  clear: both;
+  margin-bottom: 1.8em;
+}
+
+
+.layout-inline > * {
+  display: inline-block;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.th {
+  background: #f34d35;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.tf {
+  background: #f34d35;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 1.2em;  
+}
+
+.tf p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.col {
+  padding: 1em;
+  width: 12%;
+}
+
+.col-pro {
+  width: 44%;
+}
+
+.col-pro > * {
+  vertical-align: middle;
+}
+
+.col-qty {
+  text-align: center;
+  width: 17%;
+}
+
+.col-numeric p {
+  font: bold 1.8em helvetica;
+}
+
+.col-total p {
+  color: #12c8b1;
+}
+
+.tf .col {
+  width: 20%;
+}
+
+.row > div {
+  vertical-align: middle;
+}
+.row{
+  display: flex;
+}
+
+.row-bg2 {
+  background: #f7f7f7;
+}
+
+.visibility-cart {
+  position: absolute;
+  color: #fff;
+  top: 0.5em;
+  right: 0.5em;
+  font:  bold 2em arial;
+  border: 0.16em solid #fff;
+  border-radius: 2.5em;
+  padding: 0 0.22em 0 0.25em ;
+}
+
+.col-qty > * {
+  vertical-align: middle; 
+}
+
+.col-qty > input {
+  max-width: 2.6em;
+}
+
+
+a.qty {
+  width: 1em;
+  line-height: 1em;
+  border-radius: 2em;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  background: #43ace3;  
+  color: #fff;
+}
+
+a.qty:hover {
+  background: #3b9ac6;
+}
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 0.3em;
+  font-size: 1.4em;
+  background: #43ace3;
+  color: #fff;
+  box-shadow: 0 3px 0 rgba(59,154,198, 1);
+  border: none;
+}
+
+.btn:hover {
+  box-shadow: 0 3px 0 rgba(59,154,198, 0)
+}
+
+.btn {
+  float: right;
+  margin: 0 0 1.5em 0;
+}
+
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and ( max-width: 755px) {
+  .container {
+    width: 98%;
+  }
+  
+  .col-pro {
+    width: 35%;
+  }
+  
+  .col-qty {
+    width: 22%;
+  }
+  
+  img {
+    max-width: 100%;
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and ( max-width: 591px) {
+  
+}
+
+
+.delete-btn {
+
+}
+
+ion-icon {
+    font-size: 40px;
+    color: white;
+    padding: 10px 10px;
+    background-color: rgb(210, 8, 8);
+    border-radius: 4px;
+    transition: all 0.3s;
+
+}
+
+ion-icon:hover {
+   background-color: rgb(232, 45, 45);
+}
